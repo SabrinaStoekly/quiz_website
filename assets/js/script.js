@@ -24,14 +24,16 @@ const questions = [
   ];
   
   let currentQuestion = 0;
+
   let score = 0;
- 
-  // start button
+
   const introArea = document.getElementById('intro');
 
   const startButton = document.getElementById('start-button');
 
   const questionContainerElement = document.getElementById('quizArea');
+ 
+  // start button
 
   startButton.addEventListener('click', startQuiz);
 
@@ -66,11 +68,19 @@ const questions = [
   
   // display the final score and end the quiz
   function endQuiz() {
+
+    let comment = 'Aww!';
+    if (score > 4){
+      comment = 'Not bad!';
+    }
+    if (score > 8){
+      comment = 'Well done!'
+    }
+  
     document.getElementById("question").textContent = "Quiz complete!";
     document.getElementById("choices").style.display = "none";
-    document.getElementById("scoreComment").innerText = "You score " + score + " out of " + questions.length;
+    document.getElementById("scoreComment").innerText = `${comment} You score ${score} out of ${questions.length}`; 
 
-       
   }
   
   // start the quiz

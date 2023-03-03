@@ -3,14 +3,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #F7F7ED;
+    background-image: linear-gradient(to right, #6ECCAF , #CFFDE1);
     display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #492F16;
+    color: #344D67;
     text-align: center;
     font-family: 'Paytone One', sans-serif;
 }
@@ -32,16 +32,17 @@ ul li{
 
 ul li button{
     font-family: inherit;
+    color: #CFFDE1;
     font-size: 100%;
-    border: 2px solid #FAE6CD;
+    border: 2px solid #3D5656;
     padding: 15px 30px;
     border-radius: 30%;
-    background-color: #FAE6CD;
+    background-color: #3D5656;
 }
 
 .start-btn{
-    background-color: #309a6c;
-    border-color: #309a6c;
+    background-color: #ADE792;
+    border-color: #ADE792;
     border-radius: 50%;
     color: #F7F7ED;
     font-size: 400%;
