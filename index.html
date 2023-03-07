@@ -6,12 +6,13 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="assets/css/style.css">
-<title>Quiz</title>
+<title>Travel Trivia</title>
 </head>
 <body>
     <div id="intro">
-        <h1>Quiz</h1>
-        <p> Welcome to quiz bla bla bla <br> Press the start button to stat the quiz</p>
+      <h1><i class="fa-solid fa-earth-americas"></i></h1>
+        <h2>Travel Trivia</h2>
+        <p> Welcome to Travel Trivia quiz <br> Press the start button to stat the quiz</p>
         <button id="start-button" class="start-btn"><i class="fa-solid fa-forward"></i></button>       
     </div>
     <div class="hide" id="quizArea">
@@ -22,7 +23,10 @@
             <li><button id="choice2" onclick="answer(2)"> Choice 1</button></li>
             <li><button id="choice3" onclick="answer(3)"> Choice 1</button></li>
           </ul>
-          <p id="scoreComment"></p>
+          <div>
+            <p id="scoreComment"></p>
+          <button onclick="startOver()" class="hide" id="goAgain">Go Again</button>
+          </div>
         </div>
 
    <script src="assets/js/script.js"></script>

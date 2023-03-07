@@ -1,25 +1,55 @@
 
-// define your questions and answers here
+// define questions and answers here
 const questions = [
+    {
+      question: "Whats the longest river in ireland?",
+      choices: ["River Shannon", "River Lee", "River Liffey", "River Bandon"],
+      answer: 0
+    },
+    {
+      question: "Which Continent is Mexico in?",
+      choices: ["Asia", "Europe", "South America", "North America"],
+      answer: 3
+    },
     {
       question: "What is the capital of France?",
       choices: ["Paris", "London", "Madrid", "Berlin"],
       answer: 0
     },
     {
-      question: "What is the largest planet in our solar system?",
-      choices: ["Mars", "Saturn", "Jupiter", "Venus"],
-      answer: 2
-    },
-    {
-      question: "What is the most populous country in the world?",
-      choices: ["India", "United States", "China", "Brazil"],
-      answer: 2
-    },
-    {
         question: "What is the most populous country in the world?",
         choices: ["India", "United States", "China", "Brazil"],
         answer: 2
+      },
+      {
+        question: "The Canadian Flag has which icon it on?",
+        choices: ["Shamrock", "Maple Leaf", "Rose", "Orchid"],
+        answer: 1
+      },
+      {
+        question: "Mate (maté) is the National Drink of which South American Country?",
+        choices: ["Brazil", "Argentina", "Uruguay", "Colombia"],
+        answer: 1
+      },
+      {
+        question: "In which Country are Cows seen as sacred?",
+        choices: ["Turkey", "Nigeria", "Peru", "India"],
+        answer: 3
+      },
+      {
+        question: "What currency did Italy use before the Euro?",
+        choices: ["Lira", "Real", "Dollar", "Sterling"],
+        answer: 0
+      },
+      {
+        question: "What is the smallest Country in the world by landmass?",
+        choices: ["Malta", "Iceland", "Vatican", "Cuba"],
+        answer: 2
+      },
+      {
+        question: "What is the most Northern Capital City?",
+        choices: ["Tallinn", "Oslo", "Helsinki", "Reykjavik"],
+        answer: 3
       }
   ];
   
@@ -32,8 +62,10 @@ const questions = [
   const startButton = document.getElementById('start-button');
 
   const questionContainerElement = document.getElementById('quizArea');
- 
-  // start button
+
+  const goAgain = document.getElementById('goAgain');
+
+   // start button
 
   startButton.addEventListener('click', startQuiz);
 
@@ -41,6 +73,7 @@ const questions = [
     console.log('Hello from the  function startQuiz');
     introArea.classList.add('hide');
     questionContainerElement.classList.remove('hide');
+    
    }
 
   // display the current question and choices
@@ -80,8 +113,18 @@ const questions = [
     document.getElementById("question").textContent = "Quiz complete!";
     document.getElementById("choices").style.display = "none";
     document.getElementById("scoreComment").innerText = `${comment} You score ${score} out of ${questions.length}`; 
-
+    goAgain.classList.remove('hide');
   }
   
+  function startOver(){
+    console.log('hello from the button')
+    let currentQuestion = 0;
+    let score = 0;  
+    
+    
+ 
+  }
+
+
   // start the quiz
   displayQuestion();
