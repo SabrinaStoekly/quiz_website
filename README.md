@@ -1,34 +1,34 @@
 # Travel Trivia Quiz - A Milestone Project
 
-<img src="" alt="My website">
-My second milestone project, undertaken as part of the Code Institutes Diploma in Software Development. 
+My second milestone project, undertaken as part of the Code Institutes Diploma in Software Development. This is a frindly quiz game 
+that features travel related questions. Here is the link for [Travel Trivia](https://sabrinastoekly.github.io/quiz_website/)
 
-# Who Is This Website For?
-
+<img src="assets/readme_imgs/responsive_img.jpg" alt="My website">
 
 # Features
 
-The website has The design of each page has been kept simplistic. 
-The overall goal of the site is to only contain information which makes a positive impression without overwhelming the overall design. 
+The website has a simple design, with a friendly landing page, from there you can start the quiz.
+The desire outcome of the site is a clean layout,where every feature is easy located.
 
 ## Intro Area 
 
  <img src="assets/readme_imgs/Intro_area.jpg" alt="Area">
 
-
-From the moment you visit the website  
+From the moment you visit the website you have a welcome message and the instruction on how to start the quiz. 
 
 ### Quiz Area
 
 <img src="assets/readme_imgs/Question_area.jpg" alt="Quiz Area">
 
+With a linear design, that leads throughout the quiz from one question to another and a simplistic formation the quiz area features 10  multiple-choice questions.
+
 ### Score Area 
+
 <img src="assets/readme_imgs/Go_again_area.jpg" alt="Score Area">
 
+The score area display's a phrase depending on your result, along with the score of the user and a "Go Again" button that leads you to the start of the game.
 
 # The Skeleton Plane 
-The design of this project was to make the content simplistic to view on any screen size but being mobile friendly was also key. 
-Below is a link to the wireframe I had completed 
 
 [Wireframe Intro Area](assets/readme_imgs/Wireframe_intro.jpg)
 
@@ -40,19 +40,19 @@ Below is a link to the wireframe I had completed
 
 <img src="assets/readme_imgs/colorpallet.jpg" alt="Color Palette">
 
-I used the site colorhunt.co to bring together a colour pallet for the base of the website. The choice of the dark background was made so the photos on the website would be more visible and attacking, however not too dark therefore bringing a more positive image for the website as long with the two yellow tones to bring some love into the site.
+I used the site colorhunt.co to bring together a colour pallet for the base of the website. The choice of the monocrhomatic pallet with light colour a age friendly website.
 
 ## Fonts 
 
-I used google fonts to discover and use fonts that would suit my website. I’ve chosen, Unbounded, cursive for the title of the website so I could bring a more professional looking and Oswald, sans-serif to complete the look of the INSTANT website
+I've chosen "Paytone One" as the font for my website as it is a very appealing font and easy to read. My sorcce for the font was Google fonts.
 
 # Testing
  
- - 
+  - I've tested to play the quiz in different browers and different devices.
+  - Ive had a few problem with a the "Go Again" button and I could not understand how to make the  button work. I spoke to Spence Barriball, my mentor, and he was able to guide me and point me to the correct direction.
+  - When I fis ran my JavaScript code on the JShint I got sever l warning "	'const'('let') is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." That was easily solver with a comment placed at the very start of the code (/*jshint esversion: 6 */.)
 
- <img src="" alt="Accesibility">
-
- ## Bugs
+ <img src="assets/readme_imgs/Accessibility.jpg" alt="Accesibility">
 
   ## Validator 
 
@@ -60,6 +60,8 @@ I used google fonts to discover and use fonts that would suit my website. I’ve
 <img src="assets/readme_imgs/HTMLtest.jpg" alt="HTML Validator">
   CSS
  <img src="assets/readme_imgs/CSStest.jpg" alt="CSS Validator">
+ JSHint
+  - I ran the quiz through JSHint checker and no errors (One Warning) come up;
 
 # Version Control 
 
@@ -85,7 +87,7 @@ This is the process I followed having completing each significant section of cod
 
 # Deployment 
 
-I followed the below steps on GitHub (insert link) to deploy the website. 
+I followed the below steps on GitHub to deploy the website. 
 
 - Go to repository and select 'settings'. 
 - Under the 'Github pages@ section, click on the live link. 
@@ -106,6 +108,7 @@ I followed the below steps on GitHub (insert link) to deploy the website.
 - [W3Schools]( https://www.w3schools.com/) 
 - [Am I Responsive](http://ami.responsivedesign.is/) – Check the sites responsiveness
 - [W3C](https://validator.w3.org/) Validate HTML code
-- [W3C]( https://jigsaw.w3.org/css-validator/) CSS Validation 
+- [W3C]( https://jigsaw.w3.org/css-validator/) CSS Validation
+- [JSHint](https://jshint.com/) JavaScript Validation  
 - [W3Schools](https://www.w3schools.com/) - helped me in researching and fixing errors along the way
 

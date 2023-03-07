@@ -2,7 +2,7 @@
 // define questions and answers here
 const questions = [
     {
-      question: "Whats the longest river in ireland?",
+      question: "What is the longest river in Ireland?",
       choices: ["River Shannon", "River Lee", "River Liffey", "River Bandon"],
       answer: 0
     },
@@ -76,7 +76,7 @@ const questions = [
    }
 
   /** 
-  *  This function gets the current qwuestion and displays it
+  *  This function gets the current question and displays it
   */
   function displayQuestion() {
     const question = questions[currentQuestion];
@@ -105,7 +105,7 @@ const questions = [
   
   
   /** 
-  * This function display the final score and end the quiz
+  * This function display's the final score and ends the quiz
   */
   function endQuiz() {
 
@@ -124,12 +124,12 @@ const questions = [
   }
   
   /** 
-  * This function relaond the page 
+  * This function relaods the page 
   */
   function startOver(){  
     window.location.reload();
   }
 
 
-  // start the quiz
+  // Start the quiz!
   displayQuestion();
