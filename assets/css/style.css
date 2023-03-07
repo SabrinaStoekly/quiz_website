@@ -48,6 +48,16 @@ ul li button{
     font-size: 400%;
     padding: 30px;
 }
+
+#goAgain{
+    background-color: #ADE792;
+    border-color: #ADE792;
+    border-radius: 50%;
+    color: #CFFDE1;
+    font-size: 250%;
+    padding: 30px;
+}
+
 .hide{
     display: none;
 }

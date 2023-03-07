@@ -54,21 +54,20 @@ const questions = [
   ];
   
   let currentQuestion = 0;
-
   let score = 0;
-
   const introArea = document.getElementById('intro');
-
   const startButton = document.getElementById('start-button');
-
   const questionContainerElement = document.getElementById('quizArea');
-
   const goAgain = document.getElementById('goAgain');
 
    // start button
 
   startButton.addEventListener('click', startQuiz);
 
+  /** 
+  * This function starts the quiz by hiding the intro area and revealing
+  * the question container
+  */
   function startQuiz(){
     console.log('Hello from the  function startQuiz');
     introArea.classList.add('hide');
@@ -76,7 +75,9 @@ const questions = [
     
    }
 
-  // display the current question and choices
+  /** 
+  *  This function gets the current qwuestion and displays it
+  */
   function displayQuestion() {
     const question = questions[currentQuestion];
     document.getElementById("question").textContent = question.question;
@@ -85,7 +86,10 @@ const questions = [
     }
   }
   
-  // check the answer and update the score
+  
+  /** 
+  *  This function check the answer and update the score
+  */
   function answer(choice) {
     const question = questions[currentQuestion];
     if (choice === question.answer) {
@@ -99,7 +103,10 @@ const questions = [
     }
   }
   
-  // display the final score and end the quiz
+  
+  /** 
+  * This function display the final score and end the quiz
+  */
   function endQuiz() {
 
     let comment = 'Aww!';
@@ -116,13 +123,11 @@ const questions = [
     goAgain.classList.remove('hide');
   }
   
-  function startOver(){
-    console.log('hello from the button')
-    let currentQuestion = 0;
-    let score = 0;  
-    
-    
- 
+  /** 
+  * This function relaond the page 
+  */
+  function startOver(){  
+    window.location.reload()
   }
 
 
