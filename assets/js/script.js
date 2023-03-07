@@ -114,7 +114,7 @@ const questions = [
       comment = 'Not bad!';
     }
     if (score > 8){
-      comment = 'Well done!'
+      comment = 'Well done!';
     }
   
     document.getElementById("question").textContent = "Quiz complete!";
@@ -127,7 +127,7 @@ const questions = [
   * This function relaond the page 
   */
   function startOver(){  
-    window.location.reload()
+    window.location.reload();
   }
 
 
