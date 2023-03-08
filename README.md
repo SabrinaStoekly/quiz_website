@@ -50,7 +50,7 @@ I've chosen "Paytone One" as the font for my website as it is a very appealing f
  
   - I've tested to play the quiz in different browers and different devices.
   - Ive had a few problem with a the "Go Again" button and I could not understand how to make the  button work. I spoke to Spence Barriball, my mentor, and he was able to guide me and point me to the correct direction.
-  - When I fis ran my JavaScript code on the JShint I got sever l warning "	'const'('let') is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." That was easily solver with a comment placed at the very start of the code (/*jshint esversion: 6 */.)
+  - When I first ran my JavaScript code on the JShint I got sever l warning "	'const'('let') is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." That was easily solver with a comment placed at the very start of the code (/*jshint esversion: 6 */.)
 
  <img src="assets/readme_imgs/Accessibility.jpg" alt="Accesibility">
 
@@ -63,29 +63,21 @@ I've chosen "Paytone One" as the font for my website as it is a very appealing f
  JSHint
   - I ran the quiz through JSHint checker and no errors (One Warning) come up;
 
-# Version Control 
+# Deployment 
 
-- GitHub
-- Gitpod
-
-Gitpod served as the local repository and IDE. 
-GitHUb served as the remote repository. 
+For the website development I used Gitpod as served as the local repository and IDE and GitHUb served as the remote repository.
 
 The following steps were followed to maintain version control;
 
-- I created a repository on GitHub and named it 'photography_website' 
-- I then signed in to Gitpod and opened a new workspace via the repository name 'photography_website'
+- I created a repository on GitHub and named it 'quiz_website' 
+- I then signed in to Gitpod and opened a new workspace via the repository name 'quiz_website'
 - I created the pages, folders and files on GitPod
 - I saved my work on GitPod at regular intervals and pushed it to GitHub to keep it safe
 
 This is the process I followed having completing each significant section of code, I typed the following into the terminal:
 - git add . (This added the work to git)
-- git commit -m "COMMIT MESSAGE" (This committed the work)
+- git commit -m "COMMIT MESSAGE" (this to update my local repo)
 - git push (This pushed the work to GitHub)
-
-
-
-# Deployment 
 
 I followed the below steps on GitHub to deploy the website. 
 
